@@ -93,15 +93,6 @@ header {
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.navbar-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 768px) {
   .navbar {
     justify-content: space-between; 
@@ -118,11 +109,7 @@ header {
   .navbar-links.active {
     display: flex; 
   }
-
-  .navbar-toggle {
-    display: block; 
-  }
-
+  
   .navbar-links a {
     font-size: 1.2rem;
     padding: 15px 25px;
