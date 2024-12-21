@@ -228,7 +228,7 @@ body {
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in;
 }
 
-.project-section {
+.screenshots-section {
   background-color: #fafafa;
   padding: 25px;
   margin-bottom: 30px;
@@ -240,7 +240,7 @@ body {
   margin-right: auto;
 }
 
-.project-section:hover {
+.screenshots-section:hover {
   transform: scale(1.03);
 }
 
