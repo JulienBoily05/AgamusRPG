@@ -170,10 +170,6 @@ li a:hover {
   background-color: #111111;
 }
 
-.active {
-  background-color: #529ade;
-}
-
 footer {
   position: absolute;
   bottom: 0;
