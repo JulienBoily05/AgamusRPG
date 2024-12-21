@@ -311,16 +311,19 @@ footer p {
 }
 
 .screenshots-section {
-  text-align: center;
-  margin: 20px 0;
-  width: 100%;
-  padding: 15px 20px;
-  background-color: #f39c12; /* Gold */
-  color: white;
-  font-size: 1.8em;
-  font-weight: bold;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
+  width: 90%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screenshots-section:hover {
+  transform: scale(1.03);
 }
 
 @media screen and (max-width: 768px) {
