@@ -4,18 +4,6 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  overflow-x: hidden;
-  padding-top: 80px; 
-}
-
-.navbar {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
 }
 
 ul {
