@@ -310,22 +310,6 @@ footer p {
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in;
 }
 
-.screenshots-section {
-  background-color: #fafafa;
-  padding: 25px;
-  margin-bottom: 30px;
-  border-radius: 12px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease-in-out;
-  width: 90%; 
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.screenshots-section:hover {
-  transform: scale(1.03);
-}
-
 @media screen and (max-width: 768px) {
   .screenshots {
     padding: 40px;
@@ -354,6 +338,22 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #2980b9;
+}
+
+.screenshots-section {
+  background-color: #fafafa;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
+  width: 90%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screenshots-section:hover {
+  transform: scale(1.03);
 }
 
 ul {
