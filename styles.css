@@ -98,10 +98,8 @@ header {
 }
 
 .navbar-links a {
-  display: block;
   color: white;
   font-family: 'Impact', sans-serif;
-  text-align: center;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -115,15 +113,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
-li {
-  float: center;
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;  
+  justify-content: space-between;  
 }
 
 li a:hover {
@@ -149,4 +145,8 @@ footer p {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+body {
+  overflow-y: scroll;
 }
