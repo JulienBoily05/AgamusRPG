@@ -6,10 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  /*
   background-color: #f0f0f0;
-  */
-  background-image: url("https://private-user-images.githubusercontent.com/180472771/397944586-c42e8676-7a8f-48e4-9c6a-dbb308de43ca.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ4MDQxMTUsIm5iZiI6MTczNDgwMzgxNSwicGF0aCI6Ii8xODA0NzI3NzEvMzk3OTQ0NTg2LWM0MmU4Njc2LTdhOGYtNDhlNC05YzZhLWRiYjMwOGRlNDNjYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIyMVQxNzU2NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNjM4NTM3Y2I0NTVhMjZiZmM4NzBlOWE2ZWI4M2MzNzJlZWZhMDAzMzdiZDYyMTU1ODVkOWE2YzA5NDMxZDRiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.XMKN1Q9niU_hAScu2xu8iW7j9YmTd-tDVW_aHJ3wCgE")
   position: relative;
   display: flex;
   justify-content: center;
@@ -17,11 +14,9 @@ body {
   min-height: 100vh;
   width: 100%;
   overflow-x: hidden;
-  /*
   background: linear-gradient(transparent 24px, rgba(0, 0, 0, 0.05) 25px), 
               linear-gradient(90deg, transparent 24px, rgba(0, 0, 0, 0.05) 25px);
   background-color: #f9f9f9;
-  */
   background-size: 25px 25px;
   padding-top: 80px; 
 }
