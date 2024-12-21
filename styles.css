@@ -235,12 +235,6 @@ body {
   transform: scale(1.03);
 }
 
-.project-section img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
 .details {
   background-color: white;
   padding: 20px;
@@ -261,5 +255,3 @@ body {
   font-size: 1em;
   color: #2c3e50;
 }
-
-
